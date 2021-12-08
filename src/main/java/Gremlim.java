@@ -50,8 +50,7 @@ public class Gremlim implements Cloneable{
     }
     @Override
     public String toString() {
-        return "Gremlim {" + "Altura=" + altura + ", Nome='" + nome + '\'' +
-                ", Bagunceiro=" + bagunceiro + ", Molhado='" + molhado + '\'' +
-                '}';
+        return "Gremlim {" + "Altura=" + altura + ", Nome=" + nome +
+                ", Bagunceiro=" + bagunceiro + ", Molhado=" + molhado + "}";
     }
 }
