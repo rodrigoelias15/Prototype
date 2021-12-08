@@ -48,4 +48,10 @@ public class Gremlim implements Cloneable{
         Gremlim gremlimClone =(Gremlim)super.clone();
         return gremlimClone;
     }
+    @Override
+    public String toString() {
+        return "Gremlim {" + "Altura=" + altura + ", Nome='" + nome + '\'' +
+                ", Bagunceiro=" + bagunceiro + ", Molhado='" + molhado + '\'' +
+                '}';
+    }
 }
