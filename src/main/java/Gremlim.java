@@ -3,6 +3,7 @@ public class Gremlim implements Cloneable{
     private float altura;
     private String nome;
     private boolean bagunceiro;
+    private boolean molhado;
 
     public Gremlim(float altura, String nome, boolean bagunceiro) {
         this.altura = altura;
