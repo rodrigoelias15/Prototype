@@ -14,10 +14,10 @@ class GremlimTest {
             gremlimClone.setBagunceiro(true);
             gremlimClone.setMolhado(false);
 
-            assertEquals("Gremlim { Altura=60, Nome='Fred', Bagunceiro=true" +
-                    "Molhado=true}", gremlim.toString());
-            assertEquals("Gremlim { Altura=68, Nome='Jorge', Bagunceiro=true" +
-                "Molhado=false}", gremlimClone.toString());
+            assertEquals("Gremlim {Altura=60.0, Nome=Fred, Bagunceiro=true, Molhado=true}",
+                    gremlim.toString());
+            assertEquals("Gremlim {Altura=68.0, Nome=Jorge, Bagunceiro=true, Molhado=false}",
+                    gremlimClone.toString());
 
         }
     }
