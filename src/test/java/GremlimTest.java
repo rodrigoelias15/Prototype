@@ -20,6 +20,9 @@ class GremlimTest {
                     gremlimClone.toString());
 
         }
+        else{
+            System.out.println("Não houve clonagem!");
+        }
     }
 
 }
